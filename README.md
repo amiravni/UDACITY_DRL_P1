@@ -171,7 +171,7 @@ At this phase the network only evaluate the predicted action at a given state.
 For this phase network with the weights after 1700 episodes were used.
 This phase yields and average score of 17.62 - **Meaning the agent was able to receive an average reward (over 100 episodes) of at least +13**. It is most likely that using the trained network after 700 episodes was enough already to achieve this goal.
 
-![test phase](./Images/train.png)
+![test phase](./Images/test.png)
 
 
 ## Ideas for future work
