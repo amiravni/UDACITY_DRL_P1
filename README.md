@@ -26,10 +26,10 @@ The task is episodic, and in order to solve the environment, **the agent must ge
 
 # How to run the code
 * Download or clone this repository and then:
-## Option 1 - Build and run the docker under the "Docker" folder
+## Option 1 - Build and run the docker
 * Build with `build_docker.sh`
 * Run with `run_docker.sh`
-* Open notebook at http://127.0.0.1:5555/notebooks/deep-reinforcement-learning/p1_navigation/Navigation.ipynb
+* Inside the docker, open notebook at http://127.0.0.1:5555/notebooks/deep-reinforcement-learning/p1_navigation/Navigation.ipynb
 * Run notebook
 ## Option 2 - run the .ipynb file on your computer 
 * Follow instruction at lesson 4 on the navigation project
