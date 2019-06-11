@@ -3,10 +3,10 @@
 ## Project 1, Navigation
 
 # Vidoes
-## Before Training
+## [Before Training](https://www.youtube.com/watch?v=OE8RaLkGxr8)
 [![BEFORE](https://img.youtube.com/vi/OE8RaLkGxr8/0.jpg)](https://www.youtube.com/watch?v=OE8RaLkGxr8)
 
-## After Training
+## [After Training](https://www.youtube.com/watch?v=3S2NPQ858aY)
 [![AFTER](https://img.youtube.com/vi/3S2NPQ858aY/0.jpg)](https://www.youtube.com/watch?v=3S2NPQ858aY)
 
 
