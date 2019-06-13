@@ -13,15 +13,19 @@
 
 # The Environment
 
-A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana. Thus, the goal of your agent is to collect as many yellow bananas as possible while avoiding blue bananas.
+A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana. Thus, the goal of the agent is to collect as many yellow bananas as possible while avoiding blue bananas.
 
 The state space has 37 dimensions and contains the agent's velocity, along with ray-based perception of objects around the agent's forward direction. 5 dimensions of ray-based perception of objects around the agent’s forward direction (Each ray is [Yellow Banana, Wall, Blue Banana, Agent, Distance]) and 2 dimensions of velocity (forward/backward , left/right)
 Given this information, the agent has to learn how to best select actions. Four discrete actions are available, corresponding to:
 
 0 - move forward.
+
 1 - move backward.
+
 2 - turn left.
+
 3 - turn right.
+
 The task is episodic, and in order to solve the environment, **the agent must get an average score of +13 over 100 consecutive episodes**.
 
 # How to run the code
@@ -29,13 +33,13 @@ The task is episodic, and in order to solve the environment, **the agent must ge
 ## Option 1 - Build and run the docker
 * Build with `build_docker.sh`
 * Run with `run_docker.sh`
-* Inside the docker, open notebook at http://127.0.0.1:5555/notebooks/deep-reinforcement-learning/p1_navigation/Navigation.ipynb
+* Open notebook at http://127.0.0.1:5555/notebooks/deep-reinforcement-learning/p1_navigation/Navigation.ipynb
 * Run notebook
 ## Option 2 - run the .ipynb file on your computer 
 * Follow instruction at lesson 4 on the navigation project
 * Copy all the files in this repository under `p1_navigation` folder
 * Run jupyter-notebook and open `Navigation.ipynb`
-* Install missing libraries if needed - pytorch, unity, numpy, matplotlib, collection
+* Install missing libraries if needed (All should be under the DRL folder requirement so there shouldn't be any missing libraries)
 * Run notebook
 
 * Notebook high-levels parameters (found at the first cell):
@@ -52,13 +56,13 @@ TEST_EPISODES = 100
 
 # Report
 ## Definitions
-### State and action space:
+### State (37) and action (4) space:
 ```
 Unity brain name: BananaBrain
         Vector Observation space size (per agent): 37
         Vector Action space size (per agent): 4
 ```
-### agent:
+### Agent:
 
 ```
 agent = Agent(state_size=37, action_size=4, seed=0)
